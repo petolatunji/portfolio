@@ -1,0 +1,74 @@
+@media screen and (max-width: 480px) {
+  .a {
+    text-align: center;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  aLeft {
+    width: 100%;
+  }
+  .aCardBg {
+    display: none;
+  }
+  .aCard {
+    height: 30vh;
+  }
+  .aRight {
+    padding: 15px;
+  }
+}
+
+.a {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.aLeft {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+
+.aCardBg {
+  position: absolute;
+  width: 50%;
+  height: 60vh;
+  border-radius: 30px;
+  top: 50px;
+  left: 50px;
+  background-color: #333;
+}
+.aCard {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.aImg {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.aRight {
+  flex: 1;
+}
+
+.aTitle {
+  font-weight: 400;
+}
+
+.aSub {
+  margin: 20px 0px;
+}
+
+.aDesc {
+  font-weight: 300;
+}
